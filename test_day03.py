@@ -8,6 +8,6 @@ def test_multiple_claims_count():
         assert 4 == multiple_claims_count(fh)
 
 
-def test_multiple_claims_count():
+def test_only_non_overlapping():
     with open("test_day03.txt") as fh:
         assert 3 == only_non_overlapping(fh)
